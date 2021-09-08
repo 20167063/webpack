@@ -6,7 +6,7 @@ module.exports = {
   //   main: './src/index.js',
   //   bar: './src/App.js'
   // },
-  entry:['./src/index.js','./src/App.js'],
+  entry:['./src/index.js','./src/App.js','./src/component/TodoList.js'],
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname,'dist'),
